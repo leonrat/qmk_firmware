@@ -9,8 +9,8 @@
 #define ENCODERS_PAD_B { F5 }
 #define ENCODER_RESOLUTION 2
 #define MOUSE_EXTENDED_REPORT
-#define WS2812_DI_PIN D2
 #define RGBLED_NUM 6
+#define RGB_DI_PIN D2
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.
