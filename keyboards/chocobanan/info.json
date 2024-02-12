@@ -2,7 +2,7 @@
     "manufacturer": "leonratinckx",
     "keyboard_name": "chocobanan",
     "maintainer": "leonrat",
-    "bootloader": "atmel-dfu",
+    "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
     "features": {
         "bootmagic": true,
@@ -13,10 +13,10 @@
         "nkro": true
     },
     "matrix_pins": {
-        "cols": ["C6", "F6", "F7", "B1", "B3", "B2"],
-        "rows": ["D4", "B6", "E6", "B4"]
+        "cols": ["GP5", "GP27", "GP26", "GP22", "GP20", "GP23"],
+        "rows": ["GP4", "GP21", "GP7", "GP8"]
     },
-    "processor": "atmega32u4",
+    "processor": "RP2040",
     "url": "",
     "usb": {
         "device_version": "1.0.0",
