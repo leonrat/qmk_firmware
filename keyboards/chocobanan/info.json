@@ -10,14 +10,53 @@
         "console": false,
         "extrakey": true,
         "mousekey": true,
+        "rgblight": true,
         "nkro": true
     },
     "matrix_pins": {
         "cols": ["GP5", "GP27", "GP26", "GP22", "GP20", "GP23"],
         "rows": ["GP4", "GP21", "GP7", "GP8"]
     },
+    "split": {
+        "enabled": true,
+        "bootmagic": {
+            "matrix": [0, 0]
+        },
+        "soft_serial_pin": "GP0",
+        "matrix_pins": {
+            "right": {
+                "cols": ["gpxx","gpxx","gpxx","gpxx","gpxx","gpxx"],
+                "rows": ["gpxx","gpxx","gpxx","gpxx"]
+            }
+        }
+    },
+    "ws2812": {
+        "pin": "GP1",
+        "driver": "vendor"
+    },
+    "rgblight": {
+        "led_count": 12,
+        "layers": {
+            "enabled": true
+        },
+        "animations":  {
+            "alternating": true,
+            "breathing": true,
+            "christmas": true,
+            "knight": true,
+            "rainbow_mood": true,
+            "rainbow_swirl": true,
+            "rgb_test": true,
+            "snake": true,
+            "static_gradient": true,
+            "twinkle": true
+        },
+        "split": true,
+        "split_count": [6, 6],
+        "max_brightness": 180
+    },
     "processor": "RP2040",
-    "url": "",
+    "url": "github.com/leonrat",
     "usb": {
         "device_version": "1.0.0",
         "pid": "0x0000",
@@ -32,24 +71,48 @@
                 { "matrix": [0, 3], "x": 0, "y": 0 },
                 { "matrix": [0, 4], "x": 0, "y": 0 },
                 { "matrix": [0, 5], "x": 0, "y": 0 },
+                { "matrix": [4, 0], "x": 0, "y": 0 },
+                { "matrix": [4, 1], "x": 0, "y": 0 },
+                { "matrix": [4, 2], "x": 0, "y": 0 },
+                { "matrix": [4, 3], "x": 0, "y": 0 },
+                { "matrix": [4, 4], "x": 0, "y": 0 },
                 { "matrix": [1, 0], "x": 0, "y": 0 },
                 { "matrix": [1, 1], "x": 0, "y": 0 },
                 { "matrix": [1, 2], "x": 0, "y": 0 },
                 { "matrix": [1, 3], "x": 0, "y": 0 },
                 { "matrix": [1, 4], "x": 0, "y": 0 },
                 { "matrix": [1, 5], "x": 0, "y": 0 },
+                { "matrix": [5, 0], "x": 0, "y": 0 },
+                { "matrix": [5, 1], "x": 0, "y": 0 },
+                { "matrix": [5, 2], "x": 0, "y": 0 },
+                { "matrix": [5, 3], "x": 0, "y": 0 },
+                { "matrix": [5, 4], "x": 0, "y": 0 },
+                { "matrix": [5, 5], "x": 0, "y": 0 },
                 { "matrix": [2, 0], "x": 0, "y": 0 },
                 { "matrix": [2, 1], "x": 0, "y": 0 },
                 { "matrix": [2, 2], "x": 0, "y": 0 },
                 { "matrix": [2, 3], "x": 0, "y": 0 },
                 { "matrix": [2, 4], "x": 0, "y": 0 },
                 { "matrix": [2, 5], "x": 0, "y": 0 },
+                { "matrix": [6, 0], "x": 0, "y": 0 },
+                { "matrix": [6, 1], "x": 0, "y": 0 },
+                { "matrix": [6, 2], "x": 0, "y": 0 },
+                { "matrix": [6, 3], "x": 0, "y": 0 },
+                { "matrix": [6, 4], "x": 0, "y": 0 },
+                { "matrix": [6, 5], "x": 0, "y": 0 },
                 { "matrix": [3, 0], "x": 0, "y": 0 },
                 { "matrix": [3, 1], "x": 0, "y": 0 },
                 { "matrix": [3, 2], "x": 0, "y": 0 },
                 { "matrix": [3, 3], "x": 0, "y": 0 },
                 { "matrix": [3, 4], "x": 0, "y": 0 },
-                { "matrix": [3, 5], "x": 0, "y": 0 }
+                { "matrix": [3, 5], "x": 0, "y": 0 },
+                { "matrix": [7, 0], "x": 0, "y": 0 },
+                { "matrix": [7, 1], "x": 0, "y": 0 },
+                { "matrix": [7, 2], "x": 0, "y": 0 },
+                { "matrix": [7, 3], "x": 0, "y": 0 },
+                { "matrix": [7, 4], "x": 0, "y": 0 },
+                { "matrix": [7, 5], "x": 0, "y": 0 },
+
                 
             ]
         }
