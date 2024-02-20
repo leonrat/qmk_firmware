@@ -14,7 +14,7 @@
         "nkro": true
     },
     "matrix_pins": {
-        "cols": ["GP5", "GP27", "GP26", "GP22", "GP20", "GP23"],
+        "cols": ["GP5", "GP27", "GP26", "GP22", "GP20", "GP23",null],
         "rows": ["GP4", "GP21", "GP7", "GP8"]
     },
     "split": {
@@ -25,8 +25,8 @@
         "soft_serial_pin": "GP0",
         "matrix_pins": {
             "right": {
-                "cols": ["gpxx","gpxx","gpxx","gpxx","gpxx","gpxx"],
-                "rows": ["gpxx","gpxx","gpxx","gpxx"]
+                "cols": ["GP26","GP4","GP5","GP6","GP7","GP8","GP21"],
+                "rows": ["GP27","GP23","GP20","GP22"]
             }
         }
     },
@@ -76,6 +76,7 @@
                 { "matrix": [4, 2], "x": 0, "y": 0 },
                 { "matrix": [4, 3], "x": 0, "y": 0 },
                 { "matrix": [4, 4], "x": 0, "y": 0 },
+                { "matrix": [4, 5], "x": 0, "y": 0 },
                 { "matrix": [1, 0], "x": 0, "y": 0 },
                 { "matrix": [1, 1], "x": 0, "y": 0 },
                 { "matrix": [1, 2], "x": 0, "y": 0 },
@@ -88,6 +89,7 @@
                 { "matrix": [5, 3], "x": 0, "y": 0 },
                 { "matrix": [5, 4], "x": 0, "y": 0 },
                 { "matrix": [5, 5], "x": 0, "y": 0 },
+                { "matrix": [5, 6], "x": 0, "y": 0 },
                 { "matrix": [2, 0], "x": 0, "y": 0 },
                 { "matrix": [2, 1], "x": 0, "y": 0 },
                 { "matrix": [2, 2], "x": 0, "y": 0 },
@@ -100,6 +102,7 @@
                 { "matrix": [6, 3], "x": 0, "y": 0 },
                 { "matrix": [6, 4], "x": 0, "y": 0 },
                 { "matrix": [6, 5], "x": 0, "y": 0 },
+                { "matrix": [6, 6], "x": 0, "y": 0 },
                 { "matrix": [3, 0], "x": 0, "y": 0 },
                 { "matrix": [3, 1], "x": 0, "y": 0 },
                 { "matrix": [3, 2], "x": 0, "y": 0 },
@@ -112,8 +115,7 @@
                 { "matrix": [7, 3], "x": 0, "y": 0 },
                 { "matrix": [7, 4], "x": 0, "y": 0 },
                 { "matrix": [7, 5], "x": 0, "y": 0 },
-
-                
+                { "matrix": [7, 6], "x": 0, "y": 0 }
             ]
         }
     }
