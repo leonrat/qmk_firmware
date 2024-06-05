@@ -5,7 +5,7 @@
     "bootloader": "stm32-dfu",
     "diode_direction": "COL2ROW",
     "features": {
-        "bootmagic": true,
+        "bootmagic": false,
         "command": false,
         "console": false,
         "extrakey": true,
@@ -13,8 +13,8 @@
         "nkro": true
     },
     "matrix_pins": {
-        "cols": ["C2", "C2", "C2", "C2"],
-        "rows": ["D1", "D1", "D1", "D1"]
+        "cols": ["A6","A9","A3","B8","B7"],
+        "rows": ["A10", "A1", "A4", "A5"]
     },
     "processor": "STM32F072",
     "url": "",
@@ -22,6 +22,19 @@
         "device_version": "1.0.0",
         "pid": "0x0000",
         "vid": "0xFEED"
+    },
+    "split": {
+        "enabled": true,
+        "bootmagic": {
+            "matrix": [0, 0]
+        },
+        "soft_serial_pin": "B12",
+        "matrix_pins": {
+            "right": {
+                "cols": [],
+                "rows": []
+            }
+        }
     },
     "layouts": {
         "LAYOUT_ortho_4x4": {
