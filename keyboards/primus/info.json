@@ -31,8 +31,8 @@
         "soft_serial_pin": "B12",
         "matrix_pins": {
             "right": {
-                "cols": [],
-                "rows": []
+                "cols": ["A9","A8","B11","A0","B8","B7"],
+                "rows": ["A10","A1","B6","B5"]
             }
         }
     },
