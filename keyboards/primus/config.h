@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #pragma once
-
+#define SPLIT_HAND_PIN B12
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.
