@@ -22,7 +22,7 @@
         "bootmagic": {
             "matrix": [0, 0]
         },
-        "soft_serial_pin": "GP0",
+        "soft_serial_pin": "GP12",
         "matrix_pins": {
             "right": {
                 "cols": ["GP26","GP4","GP5","GP6","GP7","GP8","GP21"],
@@ -32,7 +32,7 @@
     },
     "ws2812": {
         "pin": "GP1",
-        "driver": "vendor"
+        "driver":"vendor"
     },
     "rgblight": {
         "layers": {
