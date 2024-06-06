@@ -13,7 +13,7 @@
         "nkro": true
     },
     "matrix_pins": {
-        "cols": ["A6","A9","A3","B8","B7"],
+        "cols": ["A6","A9","A3","A0","B8","B7"],
         "rows": ["A10", "A1", "A4", "A5"]
     },
     "processor": "STM32F072",
@@ -28,7 +28,7 @@
         "bootmagic": {
             "matrix": [0, 0]
         },
-        "soft_serial_pin": "B12",
+        "soft_serial_pin": "A2",
         "matrix_pins": {
             "right": {
                 "cols": ["A9","A8","B11","A0","B8","B7"],
