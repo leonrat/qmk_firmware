@@ -30,6 +30,10 @@
             }
         }
     },
+    "ws2812": {
+        "pin": "GP1",
+        "driver":"vendor"
+    },
     "rgblight": {
         "layers": {
             "enabled": true
