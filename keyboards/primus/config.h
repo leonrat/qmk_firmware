@@ -3,6 +3,7 @@
 
 #pragma once
 #define SPLIT_HAND_PIN B12
+#define SERIAL_USART_TX_PIN A6    // The GPIO pin that is used split communication.
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.
