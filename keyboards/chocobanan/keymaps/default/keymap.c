@@ -5,27 +5,22 @@
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT (
-        KC_TAB,     KC_Q,       KC_W,       KC_E,       KC_R,       KC_T,
-        MO(1),      KC_A,       KC_S,       KC_D,       KC_F,       KC_G,
-        KC_LSFT,    KC_Z,       KC_X,       KC_C,       KC_V,       KC_B,
-        KC_LCTL,    KC_LGUI,    KC_LALT,    KC_SPC,     KC_ENT,     RGB_TOG,
-        KC_BSPC,    KC_P,       KC_O,       KC_I,       KC_U,       KC_Y,
-        KC_ENT,     KC_SCLN,    KC_L,       KC_K,       KC_J,       KC_H,       KC_B,
-        KC_RSFT,    KC_NO,      KC_DOT,     KC_COMMA,   KC_M,       KC_N,       KC_TRNS,
-        KC_RCTL,    KC_RGUI,    KC_RALT,    MO(2),      KC_TRNS,    KC_SPC,     KC_DEL
+        KC_TAB,     KC_Q,       KC_W,       KC_E,       KC_R,       KC_T,                               KC_Y,      KC_U,    KC_I,       KC_O,       KC_P,       KC_BSPC,
+        MO(1),      KC_A,       KC_S,       KC_D,       KC_F,       KC_G,                               KC_H,      KC_J,    KC_K,       KC_L,       KC_SCLN,    KC_ENT,
+        KC_LSFT,    KC_Z,       KC_X,       KC_C,       KC_V,       KC_B,   RGB_TOG,        KC_TRNS,    KC_N,      KC_M,    KC_COMMA,   KC_DOT,     KC_SLSH,    KC_DEL,    KC_RSFT,
+        KC_LCTL,    KC_LGUI,    KC_LALT,                KC_SPC,             KC_ENT,         KC_BSPC,    KC_SPC,    KC_TRNS, MO(2),      KC_ALGR,    KC_RGUI,    KC_RCTL
+        
 
 
     ),
     [1] = LAYOUT (
-        KC_ESC,     KC_1,       KC_2,       KC_3,       KC_4,       KC_5,
-        MO(1),      KC_A,       KC_S,       KC_D,       KC_F,       KC_G,
-        KC_LSFT,    KC_Z,       KC_X,       KC_C,       KC_V,       KC_B,
-        KC_LCTL,    KC_LGUI,    KC_LALT,    KC_SPC,     KC_ENT,     RGB_TOG,
-        KC_BSPC,    KC_P,       KC_O,       KC_I,       KC_U,       KC_Y,
-        KC_ENT,     KC_SCLN,    KC_L,       KC_K,       KC_J,       KC_H,       KC_B,
-        KC_RSFT,    KC_NO,      KC_DOT,     KC_COMMA,   KC_M,       KC_N,       KC_TRNS,
-        KC_RCTL,    KC_RGUI,    KC_RALT,    MO(2),      KC_TRNS,    KC_SPC,     KC_DEL
-    )
+        KC_GRV,     KC_1,                   KC_2,               KC_3,           KC_4,       KC_5,                                   KC_6,           KC_7,       KC_8,       KC_9,       KC_0,       KC_EQL,
+        MO(1),      KC_KB_VOLUME_UP,        KC_KB_VOLUME_DOWN,  KC_MUTE,        KC_F,       KC_G,                                   KC_HOME,        KC_LBRC,    KC_RBRC,    KC_UP,      KC_NUBS,    KC_END,
+        KC_TRNS,    KC_MPLY,                KC_MSTP,            KC_MPRV,        KC_MNXT,    KC_TRNS,   KC_TRNS,         KC_TRNS,    KC_PGUP,        KC_PGDN,    KC_LEFT,    KC_DOWN,    KC_RIGHT,   KC_DEL,    KC_RSFT,
+        KC_TRNS,    KC_TRNS,                KC_TRNS,            KC_TRNS,        KC_TRNS,    KC_TRNS,   KC_TRNS,         KC_TRNS,    KC_TRNS,        KC_TRNS,    KC_TRNS,    KC_TRNS
+        
+    ),
+    
 };
 
 #if defined(ENCODER_MAP_ENABLE)
