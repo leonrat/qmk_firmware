@@ -4,7 +4,7 @@
 
 *A short description of the keyboard/project*
 
-* Keyboard Maintainer: [leon ratinckx](https://github.com/leonrat)
+* Keyboard Maintainer: [Nathan Rozendaal](https://github.com/Nathan Rozendaal)
 * Hardware Supported: *The PCBs, controllers supported*
 * Hardware Availability: *Links to where you can find this hardware*
 
